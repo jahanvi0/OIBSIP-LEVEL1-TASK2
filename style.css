@@ -1,0 +1,255 @@
+
+
+* { 
+   margin:0;
+   padding:0; 
+   box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    background-color: black;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:black;
+    position:sticky;
+    top:0;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+.navbar ul li{
+    font-family:century;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:white;
+    padding: 8px 25px;
+    transition: all .5s ease;
+}
+.navbar ul li a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px white;
+}
+    #Home{
+        display: flex;
+        flex-direction: column;}
+header{
+    width:100% ;
+   min-height:100vh;
+   display: flex;
+   justify-content:center;
+   align-items: center;
+   flex-direction: column;}
+    
+          
+
+header img{
+        width:15rem;
+        height:15rem;
+        border-radius:50%;
+        animation: pulse 1s infinite;
+        border: 2px solid rgb(217, 112, 8);
+        
+    }
+    @keyframes pulse{
+        0%{
+            box-shadow:0 0 0 0px rgba(0, 0, 0, 0.5);
+        }
+        100%{
+            box-shadow: 0 0 0 2px rgb(221, 132, 94);
+        }
+    }
+
+    header h3{
+        color: rgb(217, 112, 8);
+        margin: 1.5rem 0;
+        letter-spacing: 0.2rem;
+        font-size: 1.5rem;
+    }
+    header p{
+        color:rgb(217, 112, 8);
+        
+    }
+    #about{
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding: 20px;
+        margin-bottom: 50px;
+    }
+
+    #pic{
+        display: flex;
+    }
+    .headings{
+        text-align: center;
+        padding: 40px 50px;
+    }
+    #pic img{
+        width:565px;
+        height:320px;
+        align-items: right;
+    }
+    #intro{
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        padding: 10px;
+        line-height: 2.2rem;
+    }
+    #intro a{
+        text-decoration: none;
+        padding: 0.5rem 0.7rem;
+            margin: auto;
+           background:rgb(217, 112, 8); 
+           color:black;
+    }
+    #intro a:hover{
+        box-shadow: 0 0 10px rgb(221, 132, 94);
+    }
+    
+    #Education{
+        background-color: black;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding: 20px;
+        margin-bottom: 50px;
+
+    }
+    #gallery{
+            display: flex;}
+    #gallery img{
+        width:575px;
+        height:320px;
+        align-items: right;
+    }
+    #edu{
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        padding: 10px;
+        line-height: 2.2rem;}
+        #edu a{
+            text-decoration: none;
+            padding: 0.5rem 0.7rem;
+                margin: auto;
+               background:rgb(217, 112, 8); 
+               color:black;
+        }
+        #edu a:hover{
+            box-shadow: 0 0 10px rgb(221, 132, 94);
+        }
+    
+    #skills{
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding:20px;
+        margin-bottom: 50px;
+    }
+      #ability{
+        display: flex;}
+        #ability img{
+            width:557px;
+            height:370px;
+            align-items: right;}
+    .progressbar{
+     display: flex;
+    flex-direction: column;
+    text-align: justify;
+     padding: 0.5rem 1rem;
+    line-height: 1.2rem;}
+    .progressbar a{
+        text-decoration: none;
+        padding: 0.5rem 0.7rem;
+            margin: auto;
+           background:rgb(217, 112, 8); 
+           color:black;
+    }
+    .progressbar a:hover{
+        cursor: pointer;
+        box-shadow: 0 0 10px rgb(43, 18, 7);}
+
+        
+        #Contact{
+        background-color:black;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding: 50px;
+        margin-bottom: 50px;
+        } 
+   .form{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 20px 0px;
+   }
+   .input{
+    padding: 2px;
+    margin: 5px;
+    width: 30%;
+    border: none;
+    outline: none;
+    color: black;
+   }
+   #msg{
+    padding: 2px;
+    margin: 5px;
+    width: 20%;
+    border: none;
+    outline: none;
+    color: black;
+   }
+   #send{
+    padding: 5px;
+    margin: 10px;
+    width: 5%;
+    border: none;
+    outline: none;
+    align-items: center;
+   }
+   #send:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px rgb(221, 132, 94);
+   }
+   footer i{
+    background:rgba(232, 118, 4, 0.941);
+    color: black;
+    padding: 0.5rem;
+    margin: 1rem 0.2rem;
+    border: radius 50%;
+    transition: 0.4s;}
+   footer i:hover{
+    background:rgba(87, 51, 16, 0.941);
+    color: white;
+    cursor: pointer;
+   }
+   footer{
+    text-align: center;
+   }
+
+        
+
+    
+    
+    
+   
+
+
+
